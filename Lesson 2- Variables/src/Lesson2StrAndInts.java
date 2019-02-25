@@ -29,10 +29,10 @@ public class Lesson2StrAndInts {
 		
 	
 		System.out.println("Usyan Bolt " + "=" + " fastest runner");
-		System.out.println("                                                                                                                                                                                                                      ");
+		System.out.println();
 		System.out.println("Stats:");
 		System.out.println(year + " " + year2);
-		System.out.println("Age: " + age2 + "years");
+		System.out.println("Age: " + age2 + "+" + "/years");
 		System.out.println(btime + time + "s" );
 
 	}
