@@ -3,13 +3,15 @@ public class NameThatCelebrity {
 
 	public static void main(String[] args) {
 		
-		
+		//This is all the Yellow Paper
 		
 		String s = "The number of rabbits is ";
 		int argh = 129; 
 		System.out.println(s + 129 + ".");
 		System.out.println();
-	
+		
+		String HM = ("Herman Munster");
+		System.out.println();
 		
 		String p = "Groovy Dude";
 		System.out.println(p.toUpperCase());
@@ -28,7 +30,7 @@ public class NameThatCelebrity {
 		System.out.println();
 		
 		
-		System.out.println("Hello " + "Hello again");
+		System.out.println("Hello " + "\nHello again");
 		System.out.println();
 		
 		String L = "A backslash looks like this " + "\\, ...right?";
@@ -42,22 +44,14 @@ public class NameThatCelebrity {
 		String s1 = "Allan Alda";
 		String s2 = "John Wayne";
 		String s3 = "Gregory Peck";
+		int s4 = s1.length(); 
+		String Ap = s1.substring(2,s1.length()-1);
 		
-		System.out.println(s1.substring(2,5));
-		System.out.println(s1.substring(6,7));
-		System.out.println(s1);
+		
+		
 		System.out.println();
-		System.out.println(s2.substring(2,4));
-		System.out.println(s2.substring(5,7));
-		System.out.println(s2);
+		System.out.println(s1 + " >>> " + Ap);
 		System.out.println();
-		System.out.println(s3.substring(2,8));
-		System.out.println(s3.substring(8,9));
-		System.out.println(s3);
-		
-		
-	
-		
 		
 		
 		
