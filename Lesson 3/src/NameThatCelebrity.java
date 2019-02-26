@@ -43,17 +43,14 @@ public class NameThatCelebrity {
 		
 		String s1 = "Allan Alda";
 		String s2 = "John Wayne";
-		String s3 = "Gregory Peck";
-		int s4 = s1.length(); 
-		String Ap = s1.substring(2,s1.length()-1);
+		String s3 = "Gregory Peck"; 
+		String Ap = s1.substring(2,s1.length()-3);
+		String Bp = s2.substring(2,s2.length()-3);
+		String Cp = s3.substring(2,s3.length()-3);
 		
-		
-		
-		System.out.println();
 		System.out.println(s1 + " >>> " + Ap);
-		System.out.println();
-		
-		
+		System.out.println(s2 + " >>> " + Bp);
+		System.out.println(s3 + " >>> " + Cp);
 		
 		
 		
