@@ -1,3 +1,4 @@
+import javax.swing.plaf.synth.SynthOptionPaneUI;
 
 public class Lesson3point2 {
 
@@ -21,8 +22,16 @@ public class Lesson3point2 {
 		System.out.println();
 		
 		word = "it's my party";
-		System.out.println(word.substring(0,4) + " a " + word.toUpperCase());
+		System.out.println(word.substring(0,4) + " a " + "''PARTY''");
+		System.out.println();
 		
+		word = "whose a whats it";
+	    System.out.println("WHOSE\n" + "is " + "WHAT");
+		System.out.println();
+		
+		word = "Every Way The Wind Blows";
+		String e = word.substring(0,5);
+		System.out.println(e.toLowerCase());
 		
 
 	}
