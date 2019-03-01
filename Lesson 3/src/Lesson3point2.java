@@ -26,14 +26,29 @@ public class Lesson3point2 {
 		System.out.println();
 		
 		word = "whose a whats it";
-	    System.out.println("WHOSE\n" + "is " + "WHAT");
-		System.out.println();
+		String whose = word.substring(0,5);
+		System.out.println(whose.toUpperCase());
+		
 		
 		word = "Every Way The Wind Blows";
 		String e = word.substring(0,5);
-		System.out.println(e.toLowerCase());
-		
+		String q = word.substring(6,9);
+		String w = word.substring(10,13);
+		String o = word.substring(14,18);
+		String b = word.substring(19,24);
+		String num = word.substring(0,4);
+		System.out.println(e.toLowerCase() + " " + q.toUpperCase() + " " + w.toLowerCase() + " \\" + o.toUpperCase() + "\\ " + b.toLowerCase() + " " + num.length());
 
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }
