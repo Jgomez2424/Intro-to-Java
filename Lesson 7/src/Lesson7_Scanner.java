@@ -1,15 +1,25 @@
 
-public class Lesson6 {
+public class Lesson7_Scanner {
 
 	public static void main(String[] args) {
 		
-			
-		
-		
-		
-		
-		
 
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 	}
 
