@@ -83,7 +83,7 @@ public class Lesson7_Scanner {
 		System.out.println("Your letter occurs at index " + g);
 		
 		
-															
+																															
 		
 		
 		
