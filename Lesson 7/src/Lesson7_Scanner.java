@@ -44,45 +44,45 @@ public class Lesson7_Scanner {
 //		System.out.println("Test Grade 3?");
 //		double test3 = (DD.nextDouble());
 //		System.out.println("Your average is: " + (test1 + test2 + test3) / 3);
-//		
-//		Scanner ZZ = new Scanner(System.in);
-//		System.out.println("Please enter your name.");
-//		String name = (ZZ.nextLine());
-//		System.out.println("Your name has " + name.length() + " characters, how many do you want to be printed?");
-//		int numofchr = (ZZ.nextInt());
-//		System.out.println((name.substring(0,numofchr)));
+		
+		Scanner ZZ = new Scanner(System.in);
+		System.out.println("Please enter your name.");
+		String name = (ZZ.nextLine());
+		System.out.println("Your name has " + name.length() + " characters, how many do you want to be printed?");
+		int numofchr = (ZZ.nextInt());
+		System.out.println((name.substring(0,numofchr)));
 																																					
-	/*	Scanner AQ = new Scanner(System.in);
-		System.out.println("Enter your A value.");
-		double A = (AQ.nextDouble());
-		System.out.println("Please enter your B value.");
-		double B = (AQ.nextDouble());
-		double C = (Math.sqrt(Math.pow(A, 2) + Math.pow(B, 2)));
-		System.out.println("The square root of " + A + " squared + " + B + " squared = " + C );
-		*/
-				
-		Scanner EE = new Scanner(System.in);
-		System.out.println("This is a quadratic equation solver.");
-		System.out.println("Please enter your A value. ");
-		double A = (EE.nextDouble());
-		System.out.println("Please enter your B value. ");
-		double B = (EE.nextDouble());
-		System.out.println("Please enter your C value. ");
-		double C = (EE.nextDouble());
-		double Plus = (((-B + Math.sqrt(Math.pow(B,2) - 4 * A * C))/(2*A)));
-		double Minus = (((-B - Math.sqrt(Math.pow(B,2) - 4 * A * C))/(2*A)));
-		System.out.println("Plus = " + Plus);
-		System.out.println("Minus = " + Minus);
-		
-		Scanner NN = new Scanner(System.in);
-		System.out.println("Please enter your sentence.");
-		String a = (NN.nextLine());
-		System.out.println("What letter do you want me to find?");
-		String b = NN.nextLine();
-		int g = (a.indexOf(b));
-		System.out.println("Your letter occurs at index " + g);
-		
-		
+//		Scanner AQ = new Scanner(System.in);
+//		System.out.println("Enter your A value.");
+//		double Z = (AQ.nextDouble());
+//		System.out.println("Please enter your B value.");
+//		double J = (AQ.nextDouble());
+//		double D = (Math.sqrt(Math.pow(Z, 2) + Math.pow(J, 2)));
+//		System.out.println("The square root of " + Z + " squared + " + J + " squared = " + D );
+//		
+//				
+//		Scanner EE = new Scanner(System.in);
+//		System.out.println("This is a quadratic equation solver.");
+//		System.out.println("Please enter your A value. ");
+//		double A = (EE.nextDouble());
+//		System.out.println("Please enter your B value. ");
+//		double B = (EE.nextDouble());
+//		System.out.println("Please enter your C value. ");
+//		double C = (EE.nextDouble());
+//		double Plus = (((-B + Math.sqrt(Math.pow(B,2) - 4 * A * C))/(2*A)));
+//		double Minus = (((-B - Math.sqrt(Math.pow(B,2) - 4 * A * C))/(2*A)));
+//		System.out.println("Plus = " + Plus);
+//		System.out.println("Minus = " + Minus);
+//		
+//		Scanner NN = new Scanner(System.in);
+//		System.out.println("Please enter your sentence.");
+//		String a = (NN.nextLine());
+//		System.out.println("What letter do you want me to find?");
+//		String b = NN.nextLine();
+//		int g = (a.indexOf(b));
+//		System.out.println("Your letter occurs at index " + g);
+//		
+//		
 																															
 		
 		
